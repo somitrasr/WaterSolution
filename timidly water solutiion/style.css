@@ -6,7 +6,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Kaushan Script', cursive;
+    /* font-family: 'Kaushan Script', cursive; */
+    /* background-color: blue; */
     
   }
   .banner{
@@ -36,13 +37,13 @@
   }
   #container {
     padding: 50px 50px;
-    width: 450px;
-    height: 100vh;
+    width: 250px;
+    height: 100%;
     position: fixed;
     right: 0;
     /* left: 0; */
-    font-size: 25px;
-    left: -450px;
+    font-size: 20px;
+    left: -250px;
     top: 0;
     background-color: black;
     z-index: 2;
@@ -61,40 +62,99 @@
     /* transform: scale(1.3); */
     font-size: 32px;
   }
-  /* h1 {
-    color: red;
-    text-align: center;
-    padding: 20px;
-    margin: 4px;
+  #main{
+    position: relative;
+    background-color: aliceblue;
+    overflow: hidden;
   }
-  img {
-    max-width: 50px;
-    height: 30px;
+  .back{
+    width: 100%;
+    height: 300px;
+    position: relative;
   }
-  .menubutton {
-    background-color: black;
+  .front1{
+    width: 200px;
+    position:absolute;
+    top:4%;
+    left:5%;
   }
-   */
-  .footer {
-    width: 620px;
-    top: 85%;
-    left: 0;
-    right: 0;
-    height: 10vh;
-    position: fixed;
-    background-color:blue;    
-    
- }
- .footer ul li {
-  list-style:none;
-  margin: 20px 20px;1
- }
- .footer ul li a{
-  display: block;
-  color: #fff;text-decoration: none;
-   }
-  .ft{
-    display: flex;
-   }
-}
+  .front2{
+    width: 350px;
+    position:absolute;
+    top:17%;
+    right: 2%;
 
+  }
+  #main p{
+    position: absolute;
+    top:8%;
+    right: 12%;
+    font-size: 20px;
+  }
+  #about{
+    text-align: center;
+    padding: 5%;
+  }
+  #items{
+    margin: 5%;
+    text-align: center;
+  }
+  .item{
+    margin: 1.5% 3%;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background:#d9e4ec;
+  }
+  .item img{
+    width: 300px;
+  }
+  footer{
+    background-color: rgb(7, 7, 31);
+    color: white;
+    padding-bottom:10px ;
+    /* text-align: center; */
+  }
+  .footimg{
+    padding-top: 10px;
+    text-align: center;
+  }
+  footer img{
+    width: 400px;
+    height: 150px;
+  }
+  address{
+    margin: 4% 15%;
+  }
+  .icons{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    margin: 2% 15%;
+    gap: 5%;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  #foot2{
+    background-color: rgb(1, 1, 17);
+    padding: 8%;
+    text-align: center;
+    color: white;
+    border: #d9e4ec;
+
+  }
+  .link{
+    margin: 10px;
+  }
+  .link a{
+    
+    color: white;
+    text-decoration: underline;
+    font-weight: 900;
+  }
+  .end{
+    margin: 4% 1%;
+  }
+
+  
